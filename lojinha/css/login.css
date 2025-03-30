@@ -1,0 +1,61 @@
+body {
+    background-color: #fff8e1; /* Fundo amarelado claro */
+    font-family: 'Arial', sans-serif;
+}
+.navbar-custom {
+    background-color: #ffc107 !important; /* Amarelo vibrante */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: #333 !important; /* Texto escuro para contraste */
+}
+.navbar-custom .nav-link:hover {
+    color: #fff !important; /* Texto branco ao passar o mouse */
+}
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+.btn-google {
+    background-color: #db4437; /* Vermelho do Google */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-google:hover {
+    background-color: #c23321; /* Vermelho mais escuro */
+
+}
+
+.btn btn-lab {
+    background-color: #e53020; /* Vermelho do Google */
+    color: #bc1c1c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.logo-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.logo-text span {
+    color: #ff6f61; /* Laranja para destaque */
+}
+
+.footer-custom {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 200px;
+}
